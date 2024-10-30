@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&family=Rubik+Wet+Paint&display=swap");
+
+body {
+  background-color: #fcd891;
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  color: rgb(29, 29, 29);
+  font-size: 55px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 100px;
+  /* font-family: "Playwrite GB S", cursive;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal; */
+}
+
+.dleBtn {
+  width: 80px;
+  margin: 5px;
+  height: 35px;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  background-color: #fc7b02;
+}
+
+.bronzeMedals,
+.silverMedals,
+.goldMedals,
+.countryName {
+  margin: 10px;
+  height: 30px;
+}
+.addBtn,
+.updBtn {
+  background-color: #ff7b00;
+  color: white;
+  width: 80px;
+  margin: 5px;
+  height: 35px;
+  border: none;
+  border-radius: 10px;
+}
+.dleBtn:hover,
+.updBtn:hover,
+.addBtn:hover {
+  border: solid 1px;
+  width: 80px;
+  margin: 5px;
+  height: 35px;
+  background-color: #ffaa00;
+}
+
+.table {
+  color: white;
+}
+
+.medalTable {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+th {
+  background-color: #ff7b00;
+  padding: 12px;
+  text-align: center;
+}
+
+tbody {
+  display: table-row-group;
+  vertical-align: middle;
+}
+td {
+  background-color: rgb(255, 254, 254);
+  vertical-align: middle;
+  color: #333;
+  padding: 12px;
+  text-align: center;
+  border-bottom: 1px solid #ccc;
+}
+.footer {
+  margin-top: 300px;
+  font-size: 10px;
+}
