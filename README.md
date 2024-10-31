@@ -9,21 +9,21 @@
 
 ## PROJECT 기능
 
-* 국가 추가하기
+* 국가 추가하기<br>
 ![title](https://blog.kakaocdn.net/dn/bj4lrS/btsKqNoJURf/AkqjSykq2QHFJgHcIhS2Y0/img.gif)   
-* 내림차순으로 국가 추가하기
+* 내림차순으로 국가 추가하기<br>
 
 ![title](https://blog.kakaocdn.net/dn/lJGAf/btsKsdzxI0z/UrLLth9kgQ4xZJjhkTlv71/img.gif)   
 
-* 업데이트버튼 누르고 메달 수 집계하기
+* 업데이트버튼 누르고 메달 수 집계하기<br>
 ![title](https://blog.kakaocdn.net/dn/c8oWpA/btsKp6ieobY/FHpriwkXokPn1oIBfcM4X1/img.gif)   
 
 
 
-* 삭제하기
+* 삭제하기<br>
 ![title](https://blog.kakaocdn.net/dn/bXIBOu/btsKqySWDxc/NjrTbI3mMsLCbJRpZ3Gns1/img.gif)   
-* 100이상이면 거절하기
+* 100이상이면 거절하기<br>
 ![title](https://blog.kakaocdn.net/dn/df58wq/btsKqWMFwwE/kS6lCQHPhAvm2BwB7DvYxK/img.gif)   
 
-* 존재하지 않는 국가면 업데이트 불가능하게 하기
+* 존재하지 않는 국가면 업데이트 불가능하게 하기<br>
 ![title](https://blog.kakaocdn.net/dn/xEksh/btsKracKIQp/GASgmKwoC9fCWyxUrEYa4K/img.gif)   
