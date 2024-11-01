@@ -17,7 +17,7 @@ const Medal = () => {
   };
 
   // 추가 함수
-  const HandleAdd = (e) => {
+  const onSubmit = (e) => {
     e.preventDefault(); // 새로고침 방지
 
     if (!countryName) {
@@ -32,13 +32,13 @@ const Medal = () => {
       alert("제대로 입력해주세요!");
       return;
     }
-    // 중복된 국가 체크setBronzeMedals
+
     const existingCountry = countries.find(
       (country) => country.name === countryName
     );
 
     if (existingCountry) {
-      alert("이미 존재하는 국가입니다."); // alert로 오류 메시지 표시
+      alert("이미 존재하는 국가입니다."); 
       return;
     }
 
@@ -59,7 +59,7 @@ const Medal = () => {
 
   // 업데이트 함수
   const HandleUpdate = (e) => {
-    e.preventDefault(); // 새로고침 방지
+    e.preventDefault(); 
 
     // 기존 국가 찾기
     const existingCountry = countries.find(
@@ -67,7 +67,7 @@ const Medal = () => {
     );
 
     if (!existingCountry) {
-      alert("존재하지 않는 국가입니다."); // alert로 오류 메시지 표시
+      alert("존재하지 않는 국가입니다."); 
       return;
     }
     if (goldMedals >= 100 || silverMedals >= 100 || bronzeMedals >= 100) {
@@ -113,7 +113,7 @@ const Medal = () => {
         silverMedals={silverMedals}
         bronzeMedals={bronzeMedals}
         setGoldMedals={setGoldMedals}
-        HandleAdd={HandleAdd}
+        onSubmit={onSubmit}
         HandleUpdate={HandleUpdate}
         setCountryName={setCountryName}
         setSilverMedals={setSilverMedals}

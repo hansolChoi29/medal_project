@@ -6,7 +6,7 @@ const MedalForm = ({
   silverMedals,
   bronzeMedals,
   setGoldMedals,
-  HandleAdd,
+  onSubmit,
   HandleUpdate,
   setCountryName,
   setSilverMedals,
@@ -45,7 +45,7 @@ const MedalForm = ({
           onChange={(e) => setBronzeMedals(Number(e.target.value))}
         />
 
-        <button type="submit" className="addBtn" onClick={HandleAdd}>
+        <button type="submit" className="addBtn" onClick={onSubmit}>
           국가추가
         </button>
         <button type="submit" className="updBtn" onClick={HandleUpdate}>

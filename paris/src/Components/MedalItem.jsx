@@ -14,8 +14,8 @@ const MedalItem = ({ countries, handleDelete }) => {
           </thead>
           <tbody>
             {countries
-              .slice() // 원본 배열을 수정하지 않기 위해 복사
-              .sort((a, b) => b.gold - a.gold) // 금메달 수로 내림차순 정렬
+              .slice() 
+              .sort((a, b) => b.gold - a.gold) 
               .map((country) => (
                 <tr key={country.name}>
                   <td>{country.name}</td>
