@@ -1,7 +1,18 @@
 ##  PROJECT: 2024 PARIS OLYMPICS
 ![title](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fnex0N%2FbtsKserEsZb%2FLLVX5vU6iAx6NkVyZtC3a0%2Fimg.png)   
 
-처음으로 배워 본 React로 Olympic Medal Tracker를 만들어 보았습니다. 리액트 컴포넌트, 이벤트 관리, 상태(state) 관리를 통해 CRUD 기능을 구현해보았습니다.<br>
+처음으로 배워 본 React로 Olympic Medal Tracker를 만들어 보았습니다. 이 웹은 국가명을 추가하여 메달을 집계할 수 있는 브라우저입니다. 메달은 금메달, 은메달, 동메달로 구성하여 99이하까지만 입력이 가능하며, 수정 시 국가와 추가된 메달의 개수만 입력하여 업데이트가 가능합니다. <br>
+리액트 컴포넌트, 이벤트 관리, 상태(state) 관리를 통해 CRUD 기능을 구현해보았습니다.<br>
+
+## PROJECT 목표
+- 리액트 컴포넌트와 훅(useState)을 다룰 수 있어요.
+- 리액트에서 이벤트를 관리할 수 있어요.
+- 리액트의 state, props 를 확실히 이해하고 사용할 수 있어요
+
+## PROJECT 구조
+![title](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fzoi3Y%2FbtsKr71y3B6%2FGrmYAD2kQFrlp65Tlznrs0%2Fimg.png)   
+
+
 
 ## PROJECT 팀원소개
 
