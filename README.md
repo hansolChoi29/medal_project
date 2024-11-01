@@ -1,7 +1,7 @@
 ##  PROJECT: 2024 PARIS OLYMPICS
 ![title](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fnex0N%2FbtsKserEsZb%2FLLVX5vU6iAx6NkVyZtC3a0%2Fimg.png)   
 
-처음으로 배워 본 React로 Olympic Medal Tracker를 만들어 보았다. 리액트 컴포넌트, 이벤트 관리, 상태(state) 관리를 통해 CRUD 기능을 구현해보았습니다.<br>
+처음으로 배워 본 React로 Olympic Medal Tracker를 만들어 보았습니다. 리액트 컴포넌트, 이벤트 관리, 상태(state) 관리를 통해 CRUD 기능을 구현해보았습니다.<br>
 
 ## PROJECT 팀원소개
 
